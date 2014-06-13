@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{616A83D5-2BE9-C8D9-6296-29557FF7425E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_2;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\CircusGameSelectionBoxScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\BackGroundMusicHighScore.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\Bridge.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\DangerColorScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\EndLessGame.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\Fire.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\HighScore.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\HintCamera.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\HintPlayer.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\JumpTextureScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\MileStoneReach.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\MilestoneText.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\PassOverDetector.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\PersistentMileStoneScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\PlatformScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\RopeProceduralGenerationScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\TextScript.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\engageSingleUser.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\jumpDetector.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\raiseHand.cs" />
+     <Compile Include="Assets\Scripts\EndlessGame\startSwingIndicatorScript.cs" />
+     <Compile Include="Assets\Scripts\Fail.cs" />
+     <Compile Include="Assets\Scripts\FireScript.cs" />
+     <Compile Include="Assets\Scripts\GUIScript.cs" />
+     <Compile Include="Assets\Scripts\GlobalSound.cs" />
+     <Compile Include="Assets\Scripts\HorizontalBarScript.cs" />
+     <Compile Include="Assets\Scripts\LevelEnd.cs" />
+     <Compile Include="Assets\Scripts\LevelSelectionScript.cs" />
+     <Compile Include="Assets\Scripts\MapReconstruction.cs" />
+     <Compile Include="Assets\Scripts\MapScript.cs" />
+     <Compile Include="Assets\Scripts\MovementScript.cs" />
+     <Compile Include="Assets\Scripts\NPCScript.cs" />
+     <Compile Include="Assets\Scripts\PersistentLevelData.cs" />
+     <Compile Include="Assets\Scripts\PlatformHighLightScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerBurnFireScript.cs" />
+     <Compile Include="Assets\Scripts\PlayerFall.cs" />
+     <Compile Include="Assets\Scripts\ProceduralGenerationScript.cs" />
+     <Compile Include="Assets\Scripts\RopeScript.cs" />
+     <Compile Include="Assets\Scripts\RopeScriptWithNPC.cs" />
+     <Compile Include="Assets\Scripts\Score.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\ExitOnEscape.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\HSBColor.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\MenuController.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\RandomHSV.cs" />
+     <Compile Include="Assets\ZigFu\SampleScenes\_Data\Scripts\animatedTexture.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFader.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigFollowHandPoint.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigPushDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSteadyDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigSwipeDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UISessionControls\ZigWaveDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandRaiseDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigHandSessionDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigJumpDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigMapJointToSession.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigPassOverDetector.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserControls\ZigSkeleton.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageAllUsers.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleSession.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSingleUser.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\UserEngagers\ZigEngageSplitScreen.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigDepthmapToParticles.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigImageViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUserViewer.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Viewers\ZigUsersRadar.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\Zig.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\_Internal\Matrix3.cs" />
+     <Compile Include="Assets\ZigFu\Scripts\_Internal\TimedBuffer.cs" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+ <Reference Include="OpenNI.Net">
+ <HintPath>Assets\ZigFu\Scripts\_Internal\OpenNI.Net.dll</HintPath>
+ </Reference>
+ <Reference Include="ZDK">
+ <HintPath>Assets\ZigFu\Scripts\_Internal\ZDK.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{42B5176E-2817-5A7E-46D6-3030B2C8FC6E}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{38F9DAFA-160B-70F1-EDB4-EFA014AF930C}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
